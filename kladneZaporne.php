@@ -9,6 +9,9 @@ $num = -2.14;
 
 //reseni
 
-
+  if ($num>0)
+    echo "číslo ". $num . " je kladné";
+  else
+    echo "číslo ". $num . " je záporné";
 
 ?>

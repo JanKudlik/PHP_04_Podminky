@@ -5,8 +5,11 @@
  * Tip: Vyzkoušejte funčknost skriptu i s různými hodnotami.
  */
 
-$num = 5;
-
+$num = 33;
+if ($num%2)
+    echo "číslo " . $num . " je liché";
+else
+    echo "číslo " . $num . " je sudé";
 //reseni
 
 
